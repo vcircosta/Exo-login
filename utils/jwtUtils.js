@@ -1,3 +1,4 @@
+
 const jwt = require('jsonwebtoken');
 const { SECRET_KEY } = require('../config/config');
 
@@ -14,3 +15,4 @@ function verifyToken(token) {
 }
 
 module.exports = { generateToken, verifyToken };
+
